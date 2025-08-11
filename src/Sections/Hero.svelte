@@ -108,15 +108,21 @@
 
       <!-- Right Column - Modern Cabin Preview -->
       <div class="hidden lg:block">
-        <div class="relative">
+        <div class="relative flex gap-5">
           <img 
             src="https://static.wixstatic.com/media/1c989e_7277198225eb4c459d3bc7fd6f294ac0~mv2.png/v1/fill/w_600,h_1108,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/rear%20cold%20plunge%202.png"
             alt="Modern retreat cabin in forest"
-            class="rounded-2xl shadow-2xl object-contain h-[500px]"
+            class="rounded-2xl shadow-2xl object-contain h-[600px]"
 
 
           />
-          <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent rounded-2xl"></div>
+          <img 
+            src="https://static.wixstatic.com/media/1c989e_b2d698c12b9d41a09f867cd389aaadb3~mv2.png/v1/fill/w_300,h_554,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Sundress%20Lounger%202.png"
+            alt="Modern retreat cabin in forest"
+            class="rounded-2xl shadow-2xl object-contain h-[600px]"
+
+
+          />
         </div>
       </div>
     </div>
