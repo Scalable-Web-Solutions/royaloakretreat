@@ -1,20 +1,14 @@
 <script lang="ts">
   import { Leaf } from 'lucide-svelte';
+
+  let logo: string = 'https://static.wixstatic.com/media/1c989e_c1f6f4cd81194410957b71a08b31a3a9~mv2.png/v1/fill/w_574,h_472,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Logo%20White.png'
 </script>
 
-<nav class="absolute top-0 left-0 right-0 z-50 px-6 py-4">
-  <div class="max-w-7xl mx-auto flex items-center justify-between">
+<nav class="fixed top-0 left-0 right-0 z-50 px-6 py-4">
+  <div class="max-w-6xl mx-auto flex items-center justify-between">
     <!-- Logo -->
     <div class="flex items-center space-x-3">
-      <div class="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center">
-        <Leaf class="w-6 h-6 text-white" />
-      </div>
-      <div class="text-white">
-        <h1 class="text-xl font-playfair font-semibold tracking-wide">
-          ROYAL OAK
-        </h1>
-        <p class="text-xs uppercase tracking-widest opacity-90">RETREAT</p>
-      </div>
+      <img src={logo} alt="Logo" class="w-20 h-17" />
     </div>
 
     <!-- Navigation Links -->

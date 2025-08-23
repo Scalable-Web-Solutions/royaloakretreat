@@ -1,7 +1,8 @@
 <script lang="ts">
   import { ChevronDown } from 'lucide-svelte';
-  import videoSrc from '../assets/royaloak.mp4';
+  import videoSrc from '$lib/assets/royaloak.mp4';
 
+  let logo: string = 'https://static.wixstatic.com/media/1c989e_c1f6f4cd81194410957b71a08b31a3a9~mv2.png/v1/fill/w_574,h_472,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Logo%20White.png'
 
   let formData = { name: '', email: '' };
   let isVideoPlaying = true;
@@ -37,20 +38,15 @@
 
   <!-- Hero Content -->
   <div class="relative z-10 min-h-screen flex items-center">
-    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-5 items-center">
       <!-- Left Column - Content Form -->
       <div class="bg-white/10 backdrop-blur-lg rounded-3xl p-8 lg:p-12 border border-white/20">
         <!-- Logo Section -->
         <div class="text-center mb-8">
           <div class="inline-flex flex-col items-center">
             <div class="text-white mb-4">
-              <svg width="120" height="120" viewBox="0 0 120 120" class="mx-auto">
-                <circle cx="60" cy="60" r="55" fill="none" stroke="currentColor" stroke-width="1" opacity="0.3"/>
-                <text x="60" y="35" text-anchor="middle" class="font-playfair text-xs fill-current tracking-widest">ROYAL</text>
-                <path d="M40 45 Q60 65 80 45 Q75 55 60 70 Q45 55 40 45" fill="currentColor" opacity="0.8"/>
-                <text x="60" y="85" text-anchor="middle" class="font-playfair text-xs fill-current tracking-widest">OAK</text>
-                <text x="60" y="100" text-anchor="middle" class="font-inter text-xs fill-current tracking-widest">RETREAT</text>
-              </svg>
+              <img src={logo} alt="Logo" class="w-40 h-32" />
+
             </div>
           </div>
         </div>
@@ -112,14 +108,14 @@
           <img 
             src="https://static.wixstatic.com/media/1c989e_7277198225eb4c459d3bc7fd6f294ac0~mv2.png/v1/fill/w_600,h_1108,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/rear%20cold%20plunge%202.png"
             alt="Modern retreat cabin in forest"
-            class="rounded-2xl shadow-2xl object-contain h-[600px]"
+            class="rounded-2xl shadow-2xl object-contain h-[620px]"
 
 
           />
           <img 
             src="https://static.wixstatic.com/media/1c989e_b2d698c12b9d41a09f867cd389aaadb3~mv2.png/v1/fill/w_300,h_554,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Sundress%20Lounger%202.png"
             alt="Modern retreat cabin in forest"
-            class="rounded-2xl shadow-2xl object-contain h-[600px]"
+            class="rounded-2xl shadow-2xl object-contain h-[620px]"
 
 
           />
