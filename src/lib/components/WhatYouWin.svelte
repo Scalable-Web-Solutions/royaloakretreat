@@ -25,9 +25,7 @@
 
 <section
   {id}
-  class="mx-auto scroll-mt-24 min-h-screen w-full flex flex-col items-center justify-center
-         bg-[url('https://static.wixstatic.com/media/3cf872_e64e6f7eab39495ca1384d02554bfa7f~mv2.png/v1/fill/w_1450,h_1120,al_c,q_90,enc_avif,quality_auto/3cf872_e64e6f7eab39495ca1384d02554bfa7f~mv2.png')]
-         bg-cover"
+  class="mx-auto scroll-mt-24 min-h-screen w-full flex flex-col items-center justify-center"
 >
   <!-- mobile: auto height; desktop: keep full-height feel -->
   <div class="backdrop-blur-xl flex flex-col justify-center w-full h-auto md:h-screen px-4 sm:px-6 md:px-8 py-12 sm:py-16 md:py-24">

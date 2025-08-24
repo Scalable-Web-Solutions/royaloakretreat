@@ -16,11 +16,23 @@
       <a href="#about" class="text-white/90 hover:text-white transition-colors duration-300 font-inter text-sm">
         About
       </a>
+      <a href="#about" class="text-white/90 hover:text-white transition-colors duration-300 font-inter text-sm">
+        Book Now
+      </a>
       <a href="#trust" class="text-white/90 hover:text-white transition-colors duration-300 font-inter text-sm">
-        Trust
+        Amenities
+      </a>
+      <a href="#about" class="text-white/90 hover:text-white transition-colors duration-300 font-inter text-sm">
+        FAQ
+      </a>
+      <a href="#about" class="text-white/90 hover:text-white transition-colors duration-300 font-inter text-sm">
+        Activities
+      </a>
+      <a href="#about" class="text-white/90 hover:text-white transition-colors duration-300 font-inter text-sm">
+        Contact
       </a>
       <a href="#protocols" class="text-white/90 hover:text-white transition-colors duration-300 font-inter text-sm">
-        Protocols
+        
       </a>
     </div>
 

@@ -8,38 +8,32 @@
   import Protocols from '$lib/components/Protocols.svelte';
   import AboutRetreat from '$lib/components/AboutRetreat.svelte';
   import FAQ from '$lib/components/FAQ.svelte';
-  import LocationTeaser from '$lib/components/LocationTeaser.svelte';
 
   import SecondaryCTA from '$lib/components/SecondaryCTA.svelte';
   import Footer from '$lib/components/Footer.svelte';
 </script>
 
-<div class="h-screen overflow-y-auto snap-y snap-mandatory bg-gradient-to-b from-[#0b0b0b] to-[#111] text-white">
+<div class="h-screen overflow-y-auto bg-gradient-to-b from-[#0b0b0b] to-[#111] text-white">
 
   <!-- PAGE 1 -->
-  <section class="snap-start min-h-screen">
+  <section class="min-h-screen">
     <Navbar />
     <Hero />
   </section>
 
   <!-- PAGE 2 -->
-  <section id="prize" class="snap-start min-h-screen">
+  <section id="prize" class=" min-h-screen">
     <WhatYouWin />
   </section>
 
-  <!-- PAGE 3 -->
-  <section id="location" class="snap-start min-h-screen">
-    <LocationTeaser />
-  </section>
-
-  <!-- PAGE 4 -->
-  <section id="how" class="snap-start min-h-screen">
-    <HowItWorks />
-  </section>
-
   <!-- PAGE 5 -->
-  <section id="about" class="snap-start min-h-screen">
+  <section id="about" class="min-h-screen">
     <AboutRetreat />
+  </section>
+
+    <!-- PAGE 4 -->
+  <section id="how" class="min-h-screen">
+    <HowItWorks />
   </section>
 
   <!-- PAGE 6 -->
